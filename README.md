@@ -25,11 +25,31 @@ I ordered mine from taobao with proxy service to Europe, but found similar optio
 Highlt reccomend to buy it early to get measurements for later. 43 inch is DX size which this project is all about so accquire one. No need to go for 120hz as it is cashgrab and the game sucks on 120hz anyway, so dont overpay. If you want to save it later for ADX from yuancon try to find one that is less than 6.4cm thick or on this list https://docs.google.com/spreadsheets/d/1WN50pyJEPpXR32UTsEzsKe4Qm-EUAQgwmkCBX3kWB1Q/edit?gid=0#gid=0. About the mount, try to find anything as flat as possible without any additional motion addons. Espacially good one would be one with a lot of holes as it will be used to scre wit to aluminum profiles.
 
 ## Electronics and Rest
+
+### PCBs
+Buttons: I ordered one form tabao but recentyl seen on aliexpress as well here are links
+
+Touch: Mai_pico by whowechina is easiest to go for right now go and build it but remember not to solder mpr121 to pcb but 90 degree connector as shown here. You can also use this pcb for buttons but i just had another one earlier so I just used the already premade one
+
 ### Cables, wires, and connectors
+
+-8 of 3 pin female to female connector for buttons.
 -3 of 6 pin female to female connector for mpr. Reccomended 50cm or less due to i2c communication limits.
 -Bunch of other female to whatever cables, 100cm for connecting ito touch zones to mpr
 -Copper wire 0.07mm or 0.1mm, just anything in the similar size
 -90 Degree male pin connector 2.54mm
 
-### Screws
-Anything that will hold your buttons and spacers without going through the wood and potentially damage glass or cables
+### Screws and glass holders
+Anything that will hold your buttons and spacers without going through the wood and potentially damaging glass or cables
+To hold your glass use anything silimar to this
+
+# First assembly
+## Cut circle in wood
+Go to your nearest place where it can be done and ask for circle in the exact center of your wood that is 52cm diameter.
+## Engrave space for glass (Optional)
+This is optional stuff to make sure that your glass is not moving. Find the nearest service where it can be done and engrave the exact same size from the center for 1mm less than your glass thickness. 
+## Screw in spacers and buttons
+I reccomend starting from spacers as it is easier to get them in correct place with simple measuerments, so place them in the right place and outline with for example pencil. Then install buttons between those outlines. Remember there should be minimal space between buttons and spacer so it isnt like 100% fit into. Or maybe i had but cutting service of circle, whatever. After this step remember to drill out holes for buttons cables go to back of the board and check if there are any screws that went through to the other side and sand them of or however you like to do it
+
+## Cut ITO
+There are many designs for ITO as you can see here but i went with this one
