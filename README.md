@@ -1,3 +1,7 @@
+files to include
+-maimai ito for cutting
+-3d project of controller
+
 # Introduction 
 This document will show all the process I went through building this controller. I don't think this shuld be called a tutorial, more just like a showcase of how could this be done. There are many ways you can do this, this is just one way to it.
 
@@ -52,4 +56,48 @@ This is optional stuff to make sure that your glass is not moving. Find the near
 I reccomend starting from spacers as it is easier to get them in correct place with simple measuerments, so place them in the right place and outline with for example pencil. Then install buttons between those outlines. Remember there should be minimal space between buttons and spacer so it isnt like 100% fit into. Or maybe i had but cutting service of circle, whatever. After this step remember to drill out holes for buttons cables go to back of the board and check if there are any screws that went through to the other side and sand them of or however you like to do it
 
 ## Cut ITO
-There are many designs for ITO as you can see here but i went with this one
+### First option - Tested, works great
+There are many designs for ITO as you can see here but i went with this one, wchich is only cutting zones and then connecting them via thin wire and tape. Doesnt look as clean as second option but my priority was performance over looks
+### Second option - Tested, doesnt work great, for me unplayable
+Second option was my initial desing, wchich is cutting ito with traces and then connecting them to wires outside of vision field. This didnt turn out great, i dont know whether because of firmawere or whatever it was, i just gave up on this.
+### Other options
+Other options can be found here, this was very helpfull for me, when there was no english documentations of maimai controllers
+
+## Glue ITO
+Can be easily done without glueing on water, i would reccomend it as from what i heard, ITO with water isn't a great combination. Remeber here to take the protective part only after you are done with gluing everything
+
+## Mount glass to wood
+Whether or not you are planning to mount it with engraved part or not it is optional to put something underneath glass. I personally used eva foam for that. Then i supported glass from underneath with this. You can obviusly go for anything that works and doesnt take so much space, remeber about TV underneath glass.
+
+## Electronic and rest
+### Mprs
+image of mpr
+### Board, mai_pico and maimaiTouchControl
+image of boards
+### Connecting
+First what I did was tape wires to mprs like that, then left some wire to connect it to cables that go from mpr touch electrodes. Then I placed mpr121s in positions that i think were optiomal and connected them to main board. Remeber here to place them maximally 40/50cm from your board as this will make troubles with i2c communication. Then i used hot glue to make then stay in one place. Then I used 1m cables to connect thin wires on glass to mpr121 touch electrodes. Finally I glued everything that could fall of with hot glue gun. One thing to note here is that my problem was that I had to somehow manae to make cables from mpr121 electrode to glass not touch each etoher as this was interefiring with signal of what is touched and what not. Reserve space for aluminum connectors they will be in four places two at the botton an two at the top, image for reference -image-
+
+## Assembly TV and mount
+Do this and take measures as this will be important to order proper size of aluminum extrusions. You wont need to move this anyway after assembly. This will tell you how thick the total thing, note that you need +-2 cm of space betweend screen and glass
+
+# Second batch of things to buy
+## Aluminum extrusions
+Refer to this image and take measures for your size of wood. Remeber here to take more connectros as you need to connect it to your extrusions as well as connecting wood to extrusions. 
+## Screws to connect wood to extrusions
+Take four long screws that will go thorugh wood and a bit longer, as well as nut to tight it from other side and make it stable. Pick a size according to your extrusions.
+
+# Second assembly
+## Making frame
+There are many tutorial on how to do it and it varies from one extrusion vendor to another so you need to figure it out by yourself. 
+
+## Button pcb
+I added it on the back as it was very convinient for me but it depends on how you are planning to make it work, wheter using special board for buttons or built in mai_pico
+
+## Connecting wood to frame
+First i made holes in wood, then put screw in it, then from the back i placed frame next to it and places extrusion connector and screwed it to stay still in one place. Than i screwed it to frame. You can honestly do it hoverew you want. The end result should look like this. By the way, using this bolts and nuts is most convinient way to acces insides in case you need to do it.
+
+## Final touches
+Final thing I did was to add eva foam on the top to ensure that I wont damage walls.
+
+# Final note
+Here you are, done and complete
