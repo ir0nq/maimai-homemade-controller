@@ -33,7 +33,15 @@ Highlt reccomend to buy it early to get measurements for later. 43 inch is DX si
 ### PCBs
 Buttons: I ordered one form tabao but recentyl seen on aliexpress as well here are links
 
-Touch: Mai_pico by whowechina is easiest to go for right now go and build it but remember not to solder mpr121 to pcb but 90 degree connector as shown here. You can also use this pcb for buttons but i just had another one earlier so I just used the already premade one
+Touch: Mai_pico by whowechina is easiest to go for right now go and build it but remember not to solder mpr121 to pcb but 90 degree connector as shown here. You can also use this pcb for buttons but i just had another one earlier so I just used the already premade one. If you want to go for arduino one, remember to go for 3.3v version or obtain level shifter as mpr121 onyl operates at 3.3v.
+
+If you go for arduino one here is everything you need to know about how to connect everything: First of all, since mpr121 is connected to the main control through the I2C bus, each mpr is connected in parallel, that is
+The vcc (3.3v) of each mpr are connected together and connected to the VCC of the main control
+The GND of each MPR is connected together and connected to the GND of the main control.
+The SDA of each mpr is connected together and connected to the SDA of the main control. If you don’t know which pin of the main control is SDA, please search the main control board name + pinout on Google, or search the main control board name + pin definition on Baidu
+The SCL of each mpr is connected together and connected to the SCL of the main control. If you don’t know which pin of the main control is SCL, please search the main control board name + pinout on Google, or search the main control board name + pin definition on Baidu
+But please note that the I2C bus identifies devices through addresses. Each piece of mpr has the same address when it is purchased. You need to manually switch the address. The specific method is:
+Find the ADD jumper of the mpr you bought. It is probably short-circuited by default (the default ADD is shorted to GND, address 0x5A). Please use a knife, screwdriver or other sharp object to cut (cut) the short-circuited wire. Please be sure Carve carefully and accurately, making sure the jumper is completely cut off and not damaging other circuits. Then the board should lead to the ADD interface. ADD shorts GND, VCC, SDA, and SCL to obtain the addresses 0x5A, 0x5B, 0x5C, and 0x5D respectively.
 
 ### Cables, wires, and connectors
 
@@ -99,5 +107,5 @@ First i made holes in wood, then put screw in it, then from the back i placed fr
 ## Final touches
 Final thing I did was to add eva foam on the top to ensure that I wont damage walls.
 
-# Final note
+# Final note and external resources
 Here you are, done and complete
