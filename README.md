@@ -1,7 +1,3 @@
-files to include
--maimai ito for cutting
--3d project of controller
-
 # Introduction 
 This document will show all the process I went through building this controller. I don't think this shuld be called a tutorial, more just like a showcase of how could this be done. There are many ways you can do this, this is just one way to it.
 
@@ -71,7 +67,7 @@ I reccomend starting from spacers as it is easier to get them in correct place w
 ![dummy](photos/IMG_20240415_195912.jpg)
 
 ## Cut ITO
-### First option - Tested, works great
+### First option - Tested, works great, file with cad shapes is in main
 There are many designs for ITO as you can see here but i went with this one, wchich is only cutting zones and then connecting them via thin wire and tape. Doesnt look as clean as second option but my priority was performance over looks
 
 ![dummy](photos/IMG_20240627_194803.jpg)
@@ -136,4 +132,8 @@ Final thing I did was to add eva foam on the top to ensure that I wont damage wa
 
 ![dummy](photos/1720817669258.jpg)
 # Final note and external resources
-Here you are, done and complete
+Here you are, done and complete. This project took me way too long, mainly because there was no source like the one that I made here, so enjoy!
+
+I cut ito based of whowechina's mai_pico project and it's files so huge thanks to him for his work https://github.com/whowechina/mai_pico
+
+If you want to learn more about other options of maimai controller making here is great portion of knowlege from china https://github.com/NaiXi2233/dkmaiproj/blob/main/tn/2.md
