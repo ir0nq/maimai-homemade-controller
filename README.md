@@ -112,6 +112,7 @@ Do this and take measures as this will be important to order proper size of alum
 Refer to this image and take measures for your size of wood. 
 
 ![dummy](photos/image.png)
+
 Remeber here to take more connectros as you need to connect it to your extrusions as well as connecting wood to extrusions. 
 ## Screws to connect wood to extrusions
 Take four long screws that will go thorugh wood and a bit longer, as well as nut to tight it from other side and make it stable. Pick a size according to your extrusions.
