@@ -63,22 +63,22 @@ Go to your nearest place where it can be done and ask for circle in the exact ce
 ## Engrave space for glass (Optional)
 This is optional stuff to make sure that your glass is not moving. Find the nearest service where it can be done and engrave the exact same size from the center for 1mm less than your glass thickness. 
 
-![dummy](IMG_20240413_140402.jpg)
+![dummy](photos/IMG_20240413_140402.jpg)
 ## Screw in spacers and buttons
 I reccomend starting from spacers as it is easier to get them in correct place with simple measuerments, so place them in the right place and outline with for example pencil. Then install buttons between those outlines. Remember there should be minimal space between buttons and spacer so it isnt like 100% fit into. Or maybe i had but cutting service of circle, whatever. After this step remember to drill out holes for buttons cables go to back of the board and check if there are any screws that went through to the other side and sand them of or however you like to do it
 
-![dummy](IMG_20240414_163003.jpg) 
-![dummy](IMG_20240415_195912.jpg)
+![dummy](photos/IMG_20240414_163003.jpg) 
+![dummy](photos/IMG_20240415_195912.jpg)
 
 ## Cut ITO
 ### First option - Tested, works great
 There are many designs for ITO as you can see here but i went with this one, wchich is only cutting zones and then connecting them via thin wire and tape. Doesnt look as clean as second option but my priority was performance over looks
 
-![dummy](IMG_20240627_194803.jpg)
+![dummy](photos/IMG_20240627_194803.jpg)
 ### Second option - Tested, doesnt work great, for me unplayable
 Second option was my initial desing, wchich is cutting ito with traces and then connecting them to wires outside of vision field. This didnt turn out great, i dont know whether because of firmawere or whatever it was, i just gave up on this.
 
-![dummy](IMG_20240330_145351.jpg)
+![dummy](photos/IMG_20240330_145351.jpg)
 ### Other options
 Other options can be found here, this was very helpfull for me, when there was no english documentations of maimai controllers
 
@@ -90,22 +90,22 @@ Can be easily done without glueing on water, i would reccomend it as from what i
 ## Mount glass to wood
 Whether or not you are planning to mount it with engraved part or not it is optional to put something underneath glass. I personally used eva foam for that.
 
-![dummy](IMG_20240415_195537.jpg)
+![dummy](photos/IMG_20240415_195537.jpg)
 Then i supported glass from underneath with this. You can obviusly go for anything that works and doesnt take so much space, remeber about TV underneath glass.
 
-![dummy](IMG_20240418_181943.jpg)
+![dummy](photos/IMG_20240418_181943.jpg)
 
 ## Electronic and rest
 ### Mprs
-![dummy](IMG_20240711_163519.jpg)
+![dummy](photos/IMG_20240711_163519.jpg)
 ### Board, mai_pico and maimaiTouchControl
-![dummy](IMG_20240711_161949.jpg)
+![dummy](photos/IMG_20240711_161949.jpg)
 
-![dummy](IMG_20240625_200301.jpg)
+![dummy](photos/IMG_20240625_200301.jpg)
 ### Connecting
 First what I did was tape wires to mprs like that,
 
-![dummy](O1CN01waEbEY1p2pGHoGVqe_!!0-fleamarket.jpg)
+![dummy](photos/O1CN01waEbEY1p2pGHoGVqe_!!0-fleamarket.jpg)
 then left some wire to connect it to cables that go from mpr touch electrodes. Then I placed mpr121s in positions that i think were optiomal and connected them to main board. Remeber here to place them maximally 40/50cm from your board as this will make troubles with i2c communication. Then i used hot glue to make then stay in one place. Then I used 1m cables to connect thin wires on glass to mpr121 touch electrodes. Finally I glued everything that could fall of with hot glue gun. One thing to note here is that my problem was that I had to somehow manae to make cables from mpr121 electrode to glass not touch each etoher as this was interefiring with signal of what is touched and what not. Reserve space for aluminum connectors they will be in four places two at the botton an two at the top, image for reference -image-
 
 ## Assembly TV and mount
@@ -121,7 +121,7 @@ Take four long screws that will go thorugh wood and a bit longer, as well as nut
 ## Making frame
 There are many tutorial on how to do it and it varies from one extrusion vendor to another so you need to figure it out by yourself. 
 
-![dummy](IMG_20240627_195525.jpg)
+![dummy](photos/IMG_20240627_195525.jpg)
 ## Button pcb
 I added it on the back as it was very convinient for me but it depends on how you are planning to make it work, wheter using special board for buttons or built in mai_pico
 
