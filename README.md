@@ -125,13 +125,15 @@ There are many tutorial on how to do it and it varies from one extrusion vendor 
 ## Button pcb
 I added it on the back as it was very convinient for me but it depends on how you are planning to make it work, wheter using special board for buttons or built in mai_pico
 
+![dummy](photos/1720817669275.jpg)
 ## Connecting wood to frame
 First i made holes in wood, then put screw in it, then from the back i placed frame next to it and places extrusion connector and screwed it to stay still in one place. Than i screwed it to frame. You can honestly do it hoverew you want. The end result should look like this. By the way, using this bolts and nuts is most convinient way to acces insides in case you need to do it.
 
-![dummy]()
+![dummy](photos/1720817669268.jpg)
+![dummy](photos/1720817669263.jpg)
 ## Final touches
 Final thing I did was to add eva foam on the top to ensure that I wont damage walls.
 
-![dummy]()
+![dummy](photos/1720817669258.jpg)
 # Final note and external resources
 Here you are, done and complete
