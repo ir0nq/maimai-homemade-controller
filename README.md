@@ -141,3 +141,5 @@ Here you are, done and complete. This project took me way too long, mainly becau
 I cut ito based of whowechina's mai_pico project and it's files so huge thanks to him for his work https://github.com/whowechina/mai_pico
 
 If you want to learn more about other options of maimai controller making here is great portion of knowlege from china https://github.com/NaiXi2233/dkmaiproj/blob/main/tn/2.md
+
+Here is channel of one guy who build this whole thing and recorded it so maybe something to get inspiration https://space.bilibili.com/286413610?spm_id_from=333.788.0.0
