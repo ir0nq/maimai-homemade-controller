@@ -1,6 +1,9 @@
 # Introduction 
 This document will show all the process I went through building this controller. I don't think this should be called a tutorial, more just like a showcase of how could this be done. There are many ways you can do this, this is just one way to it.
 
+#License
+License is CC-NC so you can modify and use it any way other than making money from it.
+
 # First batch of things to buy
 ## Buttons
 ### Taobao
