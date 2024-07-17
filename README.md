@@ -32,9 +32,9 @@ Highly reccomended to buy it early to get measurements for later. 43 inch is DX 
 Buttons: I ordered one form tabao but recently seen on aliexpress as well here are links
 
 
-Touch: Mai_pico by whowechina is easiest to go for right now go and build it but remember not to solder mpr121 to pcb and to use 90 degree connector as shown here. You can also use this pcb for buttons but i just had another one earlier so I just used the already premade one. If you want to go for arduino one, remember to go for 3.3v version or obtain level shifter as mpr121 onyl operates at 3.3v.
+Touch: [Mai_pico by whowechina](https://github.com/whowechina/mai_pico) is easiest to go for right now go and build it but remember not to solder mpr121 to pcb and to use 90 degree connector as shown here. You can also use this pcb for buttons but i just had another one earlier so I just used the already premade one. If you want to go for arduino one, remember to go for 3.3v version or obtain level shifter as mpr121 onyl operates at 3.3v.
 
-If you go for arduino one here is everything you need to know about how to connect everything: 
+If you go for [arduino one](https://github.com/xyqyear/maimaiTouchControl) here is everything you need to know about how to connect everything: 
 >First of all, since mpr121 is connected to the main control through the I2C bus, each mpr is connected in parallel, that is
 >The vcc (3.3v) of each mpr are connected together and connected to the VCC of the main control
 >The GND of each MPR is connected together and connected to the GND of the main control.
